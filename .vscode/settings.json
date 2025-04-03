@@ -1,0 +1,80 @@
+{
+  "cSpell.language": "en-AU",
+  "explorer.compactFolders": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {},
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "todo-tree.general.tags": [
+    "=====",
+    "NOTE",
+    "IDEA",
+    "TODO",
+    "FIX",
+    "HACK"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "=====": {
+      "type": "whole-line",
+      "icon": "bookmark",
+      "foreground": "#dadada",
+      "gutterIcon": true,
+      "hideFromTree": true
+    },
+    "NOTE": {
+      "type": "whole-line",
+      "icon": "note",
+      "foreground": "#8df7ff",
+      "gutterIcon": true,
+      "hideFromTree": true
+    },
+    "IDEA": {
+      "type": "whole-line",
+      "icon": "light-bulb",
+      "foreground": "#458efc",
+      "gutterIcon": true
+    },
+    "TODO": {
+      "type": "whole-line",
+      "icon": "check",
+      "foreground": "#ff9900",
+      "gutterIcon": true
+    },
+    "FIX": {
+      "type": "whole-line",
+      "icon": "bug",
+      "foreground": "#e63d00",
+      "gutterIcon": true
+    },
+    "HACK": {
+      "type": "whole-line",
+      "icon": "tools",
+      "foreground": "#45da20",
+      "gutterIcon": true
+    }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#9B4FCC", // Mix of Jellyfin's gradient start and the boldness
+    "activityBar.background": "#6C28A9", // A deeper, subtle tone for the bar background
+    "activityBar.foreground": "#ffffff", // White for readability
+    "activityBar.inactiveForeground": "#ffffff99", // Slightly transparent white
+    "activityBarBadge.background": "#3B8DCE", // A fresh blue that still feels vibrant
+    "activityBarBadge.foreground": "#ffffff", // Clean white for contrast
+    "commandCenter.border": "#6C28A999", // Semi-transparent purple border for consistency
+    "sash.hoverBorder": "#6C28A9", // The same purple for hover effect
+    "statusBar.background": "#3B8DCE", // Light blue to mimic Jellyfin's gradient
+    "statusBar.foreground": "#ffffff", // White for text on the bar
+    "statusBarItem.hoverBackground": "#9B4FCC", // Hover with the purple to give a smooth transition
+    "statusBarItem.remoteBackground": "#3B8DCE", // Blue to signify remote status
+    "statusBarItem.remoteForeground": "#ffffff", // White text on the remote status bar
+    "titleBar.activeBackground": "#3B8DCE", // Blue again for the active window title bar
+    "titleBar.activeForeground": "#ffffff", // White text for clarity
+    "titleBar.inactiveBackground": "#6C28A999", // Slightly muted purple for inactive window
+    "titleBar.inactiveForeground": "#ffffff99" // Slightly transparent white for inactive text
+  },
+  "cSpell.words": [
+    "Jellyfin",
+    "Tvdb"
+  ]
+}

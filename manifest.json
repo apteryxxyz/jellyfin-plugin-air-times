@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Air Times",
+    "guid": "27b03c3b-9e2a-4f47-941a-82bbb5beedd8",
+    "category": "Metadata",
+    "overview": "Localised series air times from TheTVDB",
+    "description": "Air Times is a plugin for Jellyfin that localises series air times provided by TheTVDB to your servers timezone. Must be above the original TheTVDB plugin in the metadata sources list.",
+    "owner": "apteryxxyz",
+    "versions": []
+  }
+]
