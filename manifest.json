@@ -6,6 +6,15 @@
     "overview": "Localised series air times from TheTVDB",
     "description": "Air Times is a plugin for Jellyfin that localises series air times provided by TheTVDB to your servers timezone. Must be above the original TheTVDB plugin in the metadata sources list.",
     "owner": "apteryxxyz",
-    "versions": []
+    "versions": [
+      {
+        "version": "0.0.1.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/apteryxxyz/jellyfin-plugin-airtimes/release/download/0.0.1.0/Jellyfin.Plugin.AirTimes.zip",
+        "checksum": "4e74c9bf4b195a132b509f5d253730b9",
+        "timestamp": "2025-04-03T06:30:00Z"
+      }
+    ]
   }
 ]
