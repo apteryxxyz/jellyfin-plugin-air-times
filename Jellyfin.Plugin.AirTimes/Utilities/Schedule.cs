@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Jellyfin.Plugin.AirTimes;
+namespace Jellyfin.Plugin.AirTimes.Utilities;
 
 /// <summary>
 /// Represents a schedule.
