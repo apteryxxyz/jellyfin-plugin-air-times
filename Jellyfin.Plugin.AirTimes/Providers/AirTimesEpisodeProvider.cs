@@ -22,7 +22,7 @@ public class AirTimesEpisodeProvider(IHttpClientFactory httpClientFactory, ILogg
   private readonly Tvdb tvdb = new(httpClientFactory, loggerFactory);
 
   /// <inheritdoc/>
-  public string Name => "Air Times (TheTVDB)";
+  public string Name => "TheTVDB (Air Times)";
 
   /// <inheritdoc/>
   public async Task<MetadataResult<Episode>> GetMetadata(EpisodeInfo info, CancellationToken cancellationToken)

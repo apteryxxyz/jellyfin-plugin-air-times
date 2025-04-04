@@ -24,7 +24,7 @@ public class AirTimesSeriesProvider(IHttpClientFactory httpClientFactory, ILogge
   private readonly Tvdb tvdb = new(httpClientFactory, loggerFactory);
 
   /// <inheritdoc/>
-  public string Name => "Air Times (TheTVDB)";
+  public string Name => "TheTVDB (Air Times)";
 
   /// <inheritdoc/>
   public async Task<MetadataResult<Series>> GetMetadata(SeriesInfo info, CancellationToken cancellationToken)
@@ -49,7 +49,7 @@ public class AirTimesSeriesProvider(IHttpClientFactory httpClientFactory, ILogge
       .ConfigureAwait(false);
     if (airDates.Count == 0)
     {
-      logger.LogWarning("No air dates found for series \"{Name}\"", info.Name);
+      logger.LogWarning("Could not retrieve any air dates for \"{Name}\"", info.Name);
       return metadata;
     }
 
